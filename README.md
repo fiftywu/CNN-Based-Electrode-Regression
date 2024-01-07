@@ -15,12 +15,14 @@ The quality of battery cells is closely related to the position of the electrode
 
 ## Proposed Framework
 
+<<<<<<< HEAD
 ![](files\framework.png)
-
+=======
+![framework](https://github.com/fiftywu/CNN-Based-Electrode-Regression/blob/main/files/framework.png)
 ## Experimental Result
 
 - Use Oriented-FAST to detect ***N*** corner points.
-- The training set size is ~2K and the test set is ~1K.
+- The training set size is about 2K and the test set is about 1K.
 
 | Method                        | NME(%)↓   | PCK@0.5%↑ | PCK@1.0%↑ |
 | ----------------------------- | --------- | --------- | --------- |
