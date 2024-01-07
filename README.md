@@ -15,7 +15,7 @@ The quality of battery cells is closely related to the position of the electrode
 
 ## Proposed Framework
 
-![](files\framework.png)
+![framework]([files\framework.png](https://github.com/fiftywu/CNN-Based-Electrode-Regression/blob/main/files/framework.png))
 
 ## Experimental Result
 
