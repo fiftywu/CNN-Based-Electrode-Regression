@@ -14,11 +14,8 @@ The quality of battery cells is closely related to the position of the electrode
 - A confidence-based adjustment module is proposed to adaptively optimize the pole detection results by evaluating the confidence of the poles predicted by CNN and their reference corners.
 
 ## Proposed Framework
-
-<<<<<<< HEAD
-![](files\framework.png)
-=======
 ![framework](https://github.com/fiftywu/CNN-Based-Electrode-Regression/blob/main/files/framework.png)
+
 ## Experimental Result
 
 - Use Oriented-FAST to detect ***N*** corner points.
