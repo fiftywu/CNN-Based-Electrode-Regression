@@ -21,11 +21,12 @@ The quality of battery cells is closely related to the position of the electrode
 - Use Oriented-FAST to detect ***N*** corner points.
 - The training set size is about 2K and the test set is about 1K.
 
-| Method                        | NME(%)↓   | PCK@0.5%↑ | PCK@1.0%↑ |
-| ----------------------------- | --------- | --------- | --------- |
-| HRNet                         | 0.658     | 0.422     | 0.818     |
-| HRNet + Corner points (N=128) | 0.624     | 0.486     | 0.836     |
-| HRNet + Corner points (N=512) | **0.582** | **0.519** | **0.865** |
+| Method                        | NME(%)↓   | PCK@0.5%↑ | PCK@1.0%↑ | PCS@0.5%↑ | PCS@1%↑   |
+| ----------------------------- | --------- | --------- | --------- | --------- | --------- |
+| HRNet                         | 0.658     | 0.421     | 0.818     | 0.239     | 0.965     |
+| HRNet + Corner points (N=128) | 0.624     | 0.473     | 0.836     | 0.303     | 0.978     |
+| HRNet + Corner points (N=256) | 0.611     | 0.486     | 0.847     | 0.337     | 0.978     |
+| HRNet + Corner points (N=512) | **0.582** | **0.519** | **0.865** | **0.388** | **0.991** |
 
 ## **Scalability**
 
